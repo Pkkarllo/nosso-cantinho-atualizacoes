@@ -1,7 +1,7 @@
 {
-  "minVersionCode": 14,
-  "latestVersionCode": 14,
-  "versionName": "4.9-mapa-do-casal",
-  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.9.apk",
-  "sha256": "6562bf4abed410abfd8bd5e1b86470be259bc4d4c537b44ef3e6596e8875b33e"
+  "minVersionCode": 15,
+  "latestVersionCode": 15,
+  "versionName": "4.10-gps-continuo",
+  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.10.apk",
+  "sha256": "fb6d92a2afcee195fb969010b673544ebaa068a37a1fe0aeab3afc5ba4f0f04a"
 }
