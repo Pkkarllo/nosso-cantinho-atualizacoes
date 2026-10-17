@@ -1,7 +1,7 @@
 {
-  "minVersionCode": 8,
-  "latestVersionCode": 8,
-  "versionName": "4.3-chamadas",
-  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.3.apk",
-  "sha256": "4971c48f792bf41143da55c5db529d0d987a92c9a8bb2a5d04af85f59bff3113"
+  "minVersionCode": 9,
+  "latestVersionCode": 9,
+  "versionName": "4.4-download-interno",
+  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.4.apk",
+  "sha256": "e682d5dd262bf512c5c8bcf257735abb9a4b4ead9555d694171bee260027b3eb"
 }
