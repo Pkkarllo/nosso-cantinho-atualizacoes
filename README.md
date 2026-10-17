@@ -2,22 +2,24 @@
 
 Canal público de distribuição do APK Android assinado.
 
-## Versão 4.7 — chamada flutuante
-[Baixar Nosso-Cantinho-4.7.apk](https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.7.apk). Instale por cima, sem desinstalar. Quem usa 4.4+ pode baixar pelo app.
+## Versão 4.8 — tela de chamada
+[Baixar Nosso-Cantinho-4.8.apk](https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.8.apk). Instale por cima, sem desinstalar. Quem usa 4.4+ pode baixar pelo app.
 
-Nos dois celulares: Ajustes > Chamadas por cima de outros apps > Ativar janela de chamada e conceder Aparecer sobre outros apps no Android. Requer internet e recebimento ativo em segundo plano. A janela central aparece ao receber chamada enquanto outro app é usado, com Atender e Recusar. O cartão é o mesmo convite azul/vermelho do app. Ao atender, abre a chamada no Nosso Cantinho; câmera/microfone só abrem com aceite e permissões. Se o perfil estiver bloqueado, precisa autenticar primeiro.
+Correção de um possível bloqueio da janela externa: marcadores de chamadas antigas não impedem mais a janela após reiniciar o processo. Android11+ usa contexto de janela associado ao display/tipo de overlay. Um teste local por 10 segundos mostra o mesmo cartão fora do app sem ligar para ninguém ou iniciar mídia; há diagnóstico se o Android recusar a janela.
 
-A janela é opt-in e pode ser desativada. Fecha por recusa, fim, expiração, retorno ao app, parada do serviço ou revogação da permissão. Sem janela sobre tela bloqueada/apagada ou durante sessão ativa. Android e apps protegidos podem impedir a janela; a notificação continua disponível. As regras foram testadas e o APK compilado/assinado; WindowManager, abertura por clique e aparência ainda precisam de teste real nos A05/A16. Chamadas seguem experimentais, sem TURN.
+Para configurar NOS DOIS celulares: Ajustes > Chamadas por cima de outros apps. Ative Janela externa e autorize Aparecer sobre outros apps. Para tela apagada/bloqueada, ative Chamada na tela bloqueada e autorize notificações em tela cheia no Android14+. Notificações e alertas do canal de chamadas também precisam estar permitidos. Confira recebimento ativo e bateria se parar de chegar em segundo plano.
 
-Mantém a 4.6: sinais rápidos fora da Conversa; notificações com significado sem contagem de vibrações. Mantém quatro toques originais em Ajustes > Sons de mensagens e ligações.
+Convites de voz/vídeo podem solicitar ao Android que acenda o visor e mostre o mesmo cartão com Atender/Recusar sobre a tela bloqueada. Desenho não solicita wake-up. Atender pede desbloqueio quando necessário e só abre mídia após aceite e perfil autorizado. A tela de convite não dá acesso ao histórico. Expiração/encerramento fecha a tela. Celular totalmente desligado não recebe chamadas; precisa estar ligado, com internet e serviço ativo. Android, bateria, Doze e configurações podem limitar entrega/exibição. Nenhum teste físico de tela bloqueada, wake-up, PIN ou janela nos A05/A16 foi executado. Compilação, assinatura e regras de exibição foram verificadas. Chamadas permanecem experimentais, sem TURN.
+
+Mantém os quatro toques originais, sinais rápidos fora da Conversa e notificações sem contagem de vibrações.
 
 ## Download interno e publicação
-Desde 4.4, download dentro do app com progresso e verificação SHA-256, pacote, versão e assinatura. O Android exige confirmação e pode pedir Permitir desta fonte. Atualização remota de tema/conteúdo sem APK ainda não implementada.
+Desde 4.4, download interno com progresso e verificação de SHA-256, pacote, versão e assinatura. A instalação continua dependendo da confirmação Android. Atualização remota de tema/conteúdo sem APK ainda não implementada.
 
 1. Incrementar versionCode e Updates.VERSION juntos no projeto privado.
-2. Gerar APK com a chave ORIGINAL, verificar assinatura e preservar o APK dentro de ZIP validado para evitar truncamento no transporte.
-3. Publicar novo APK e update.json na mesma alteração, preservando versões antigas.
+2. Gerar APK com a chave ORIGINAL, verificar assinatura e preservar o arquivo em ZIP validado.
+3. Publicar novo APK e update.json na mesma alteração, preservando arquivos anteriores.
 4. latestVersionCode deve corresponder ao APK; minVersionCode nunca deve superá-lo.
-5. Comparar SHA-256 e bytes do download público com o APK original do ZIP antes de anunciar.
+5. Conferir bytes e hash do download público com o APK original dentro do ZIP.
 
-Nunca publicar a chave privada, ZIP de projeto, códigos do casal, dados pessoais ou backups aqui. Sem internet o app não descobre novas versões; bloqueios já recebidos permanecem salvos.
+Nunca publicar chave privada, ZIP de projeto, código do casal, dados pessoais ou backups aqui. Sem internet não descobre novas versões; bloqueios conhecidos permanecem.

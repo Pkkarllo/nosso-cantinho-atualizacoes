@@ -1,7 +1,7 @@
 {
-  "minVersionCode": 12,
-  "latestVersionCode": 12,
-  "versionName": "4.7-chamada-flutuante",
-  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.7.apk",
-  "sha256": "db06b5fc903a05a58a38c5afc38f1fb00f5ebeaab4477fdfb16dd537ec032d86"
+  "minVersionCode": 13,
+  "latestVersionCode": 13,
+  "versionName": "4.8-tela-de-chamada",
+  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.8.apk",
+  "sha256": "e967676f821a00a1a9e6443f6f8a07e2b75756544c82ffe6d55dceaaaa605249"
 }
