@@ -2,20 +2,22 @@
 
 Canal público de distribuição do APK Android assinado.
 
-## Versão 4.6 — conversa limpa
-[Baixar Nosso-Cantinho-4.6.apk](https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.6.apk). Instale por cima, sem desinstalar. Quem usa 4.4+ pode baixar dentro do app.
+## Versão 4.7 — chamada flutuante
+[Baixar Nosso-Cantinho-4.7.apk](https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.7.apk). Instale por cima, sem desinstalar. Quem usa 4.4+ pode baixar pelo app.
 
-Sinais rápidos antigos e novos ficam ocultos na aba Conversa; mensagens escritas e fotos permanecem. Notificações dos sinais mostram apenas o significado, sem contar vibrações. Os padrões de vibração permanecem iguais. Os registros dos sinais não foram apagados. Compilação, assinatura e filtro SQLite conferidos; interface precisa de teste nos aparelhos.
+Nos dois celulares: Ajustes > Chamadas por cima de outros apps > Ativar janela de chamada e conceder Aparecer sobre outros apps no Android. Requer internet e recebimento ativo em segundo plano. A janela central aparece ao receber chamada enquanto outro app é usado, com Atender e Recusar. O cartão é o mesmo convite azul/vermelho do app. Ao atender, abre a chamada no Nosso Cantinho; câmera/microfone só abrem com aceite e permissões. Se o perfil estiver bloqueado, precisa autenticar primeiro.
 
-## Sons e atualizações
-Ajustes > Sons de mensagens e ligações tem quatro melodias originais, som padrão, Sem som e prévia. Android/Samsung controla layout, volume, DND e canais de notificação. Chamadas continuam experimentais, sem TURN.
-Desde 4.4, download de APK dentro do app com progresso, SHA-256, pacote, versão e assinatura conferidos. O instalador Android exige confirmação e pode pedir Permitir desta fonte. Mantenha o app aberto durante o download. Atualização remota de conteúdo/tema sem APK ainda não foi implementada.
+A janela é opt-in e pode ser desativada. Fecha por recusa, fim, expiração, retorno ao app, parada do serviço ou revogação da permissão. Sem janela sobre tela bloqueada/apagada ou durante sessão ativa. Android e apps protegidos podem impedir a janela; a notificação continua disponível. As regras foram testadas e o APK compilado/assinado; WindowManager, abertura por clique e aparência ainda precisam de teste real nos A05/A16. Chamadas seguem experimentais, sem TURN.
 
-## Publicar atualização obrigatória
+Mantém a 4.6: sinais rápidos fora da Conversa; notificações com significado sem contagem de vibrações. Mantém quatro toques originais em Ajustes > Sons de mensagens e ligações.
+
+## Download interno e publicação
+Desde 4.4, download dentro do app com progresso e verificação SHA-256, pacote, versão e assinatura. O Android exige confirmação e pode pedir Permitir desta fonte. Atualização remota de tema/conteúdo sem APK ainda não implementada.
+
 1. Incrementar versionCode e Updates.VERSION juntos no projeto privado.
-2. Gerar e verificar APK com a chave ORIGINAL. Nunca publicar a chave privada ou ZIP do projeto aqui.
-3. Publicar novo APK e update.json na mesma alteração, preservando arquivos antigos.
-4. latestVersionCode deve corresponder exatamente ao APK; minVersionCode não pode superar latestVersionCode.
-5. Calcular sha256 e verificar bytes do download público antes de anunciar.
+2. Gerar APK com a chave ORIGINAL, verificar assinatura e preservar o APK dentro de ZIP validado para evitar truncamento no transporte.
+3. Publicar novo APK e update.json na mesma alteração, preservando versões antigas.
+4. latestVersionCode deve corresponder ao APK; minVersionCode nunca deve superá-lo.
+5. Comparar SHA-256 e bytes do download público com o APK original do ZIP antes de anunciar.
 
-Controle consultado ao retomar e periodicamente em primeiro plano. Sem internet não descobre novas versões; bloqueios conhecidos permanecem. Não publicar códigos do casal, dados pessoais ou backups.
+Nunca publicar a chave privada, ZIP de projeto, códigos do casal, dados pessoais ou backups aqui. Sem internet o app não descobre novas versões; bloqueios já recebidos permanecem salvos.

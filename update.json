@@ -1,7 +1,7 @@
 {
-  "minVersionCode": 11,
-  "latestVersionCode": 11,
-  "versionName": "4.6-conversa-limpa",
-  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.6.apk",
-  "sha256": "cb66197478d616e15c0063a60abe2fa1025164282e245574ecdd9afdf7d528ed"
+  "minVersionCode": 12,
+  "latestVersionCode": 12,
+  "versionName": "4.7-chamada-flutuante",
+  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.7.apk",
+  "sha256": "db06b5fc903a05a58a38c5afc38f1fb00f5ebeaab4477fdfb16dd537ec032d86"
 }
