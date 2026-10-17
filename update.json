@@ -1,7 +1,7 @@
 {
-  "minVersionCode": 10,
-  "latestVersionCode": 10,
-  "versionName": "4.5-sons-e-carinho",
-  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.5.apk",
-  "sha256": "eca0a066b25e026396096ae06620c87eb340c3527d0bd495242d35d33e67bdd5"
+  "minVersionCode": 11,
+  "latestVersionCode": 11,
+  "versionName": "4.6-conversa-limpa",
+  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.6.apk",
+  "sha256": "cb66197478d616e15c0063a60abe2fa1025164282e245574ecdd9afdf7d528ed"
 }

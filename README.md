@@ -2,21 +2,20 @@
 
 Canal público de distribuição do APK Android assinado.
 
-## Versão 4.5 — sons e carinho
-Baixe [Nosso-Cantinho-4.5.apk](https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.5.apk), abra no Android e escolha Atualizar. Não desinstale para preservar seus dados. Quem já usa 4.4 pode iniciar o download no app.
+## Versão 4.6 — conversa limpa
+[Baixar Nosso-Cantinho-4.6.apk](https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.6.apk). Instale por cima, sem desinstalar. Quem usa 4.4+ pode baixar dentro do app.
 
-Notificações com coração azul/vermelho, descrições carinhosas e atalhos para abrir conversa, ver convite e recusar. O aviso contínuo de conexão permanece silencioso. Em Ajustes > Sons de mensagens e ligações, escolha Carinho ou Estrelinhas para mensagens; Nosso encontro ou Saudade de você para ligações. Também há som padrão do celular, Sem som, prévia e acesso às configurações Android. As melodias foram sintetizadas originalmente para este app.
+Sinais rápidos antigos e novos ficam ocultos na aba Conversa; mensagens escritas e fotos permanecem. Notificações dos sinais mostram apenas o significado, sem contar vibrações. Os padrões de vibração permanecem iguais. Os registros dos sinais não foram apagados. Compilação, assinatura e filtro SQLite conferidos; interface precisa de teste nos aparelhos.
 
-Canais de som são separados por escolha e vibração; alterações manuais no Android são preservadas. Ligações têm toque repetido pelo sistema, cancelado ao atender/recusar/encerrar e timeout de 90s. Silencioso, Não perturbe, volume e configurações Android têm prioridade. Android/Samsung define o layout final. APK/recursos/assinatura e estrutura dos WAVs conferidos; aparência, som e instalação completa ainda precisam de testes reais nos A05/A16. Chamadas seguem experimentais, sem TURN.
-
-## Download interno
-Desde 4.4, atualizações são baixadas dentro do app, com progresso real, SHA-256, conferência de pacote, versão e assinatura. O instalador Android exige confirmação e pode pedir Permitir desta fonte. Mantenha o app aberto durante o download. Quem usa versão anterior à 4.4 instala esta uma vez pelo fluxo antigo.
+## Sons e atualizações
+Ajustes > Sons de mensagens e ligações tem quatro melodias originais, som padrão, Sem som e prévia. Android/Samsung controla layout, volume, DND e canais de notificação. Chamadas continuam experimentais, sem TURN.
+Desde 4.4, download de APK dentro do app com progresso, SHA-256, pacote, versão e assinatura conferidos. O instalador Android exige confirmação e pode pedir Permitir desta fonte. Mantenha o app aberto durante o download. Atualização remota de conteúdo/tema sem APK ainda não foi implementada.
 
 ## Publicar atualização obrigatória
 1. Incrementar versionCode e Updates.VERSION juntos no projeto privado.
-2. Gerar e verificar APK com a mesma chave original. Nunca publicar a chave privada ou ZIP do projeto aqui.
+2. Gerar e verificar APK com a chave ORIGINAL. Nunca publicar a chave privada ou ZIP do projeto aqui.
 3. Publicar novo APK e update.json na mesma alteração, preservando arquivos antigos.
 4. latestVersionCode deve corresponder exatamente ao APK; minVersionCode não pode superar latestVersionCode.
 5. Calcular sha256 e verificar bytes do download público antes de anunciar.
 
-O controle é consultado ao retomar e periodicamente em primeiro plano. Sem internet não descobre novas versões; bloqueios conhecidos permanecem salvos. Nunca publicar códigos de casal, dados pessoais ou backups.
+Controle consultado ao retomar e periodicamente em primeiro plano. Sem internet não descobre novas versões; bloqueios conhecidos permanecem. Não publicar códigos do casal, dados pessoais ou backups.
