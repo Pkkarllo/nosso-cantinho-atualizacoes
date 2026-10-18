@@ -1,7 +1,7 @@
 {
-  "minVersionCode": 21,
-  "latestVersionCode": 21,
-  "versionName": "4.16-audio-por-gestos",
-  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.16.apk",
-  "sha256": "73c19b46f5c061ee3006c6f58fde8b9ad8a46e2987a3c2322df0ea2e6e07d546"
+  "minVersionCode": 22,
+  "latestVersionCode": 22,
+  "versionName": "4.17-aviso-de-cotas",
+  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.17.apk",
+  "sha256": "1ee7a14bfb1a161a7d7d33c760721de65972251bc2c28913ba966b1e3cc10225"
 }
