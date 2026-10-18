@@ -1,7 +1,7 @@
 {
-  "minVersionCode": 18,
-  "latestVersionCode": 18,
-  "versionName": "4.13-conversa-fofa",
-  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.13.apk",
-  "sha256": "b4a09d2f617f315fcfad0d3a3f2952efe5e69f31dea70594007ac7c6234df4d1"
+  "minVersionCode": 19,
+  "latestVersionCode": 19,
+  "versionName": "4.14-respostas-e-reacoes",
+  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.14.apk",
+  "sha256": "60366eec79ac67bc94eb6bd1a5047e582a38230974303f82cd7431432742b426"
 }
