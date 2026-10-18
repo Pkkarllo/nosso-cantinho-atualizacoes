@@ -1,0 +1,29 @@
+services:
+  ntfy:
+    image: binwiederhier/ntfy:v2.29.0
+    command: serve
+    restart: unless-stopped
+    environment:
+      NTFY_CACHE_FILE: /var/lib/ntfy/cache.db
+      NTFY_CACHE_DURATION: 8760h
+      NTFY_AUTH_FILE: /var/lib/ntfy/auth.db
+      NTFY_AUTH_DEFAULT_ACCESS: deny-all
+      NTFY_ENABLE_LOGIN: "true"
+      NTFY_BEHIND_PROXY: "true"
+      NTFY_ATTACHMENT_CACHE_DIR: /var/lib/ntfy/attachments
+    volumes:
+      - ./data:/var/lib/ntfy
+    networks:
+      - backend
+
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    command: tunnel --no-autoupdate --url http://ntfy:80
+    restart: unless-stopped
+    depends_on:
+      - ntfy
+    networks:
+      - backend
+
+networks:
+  backend:
