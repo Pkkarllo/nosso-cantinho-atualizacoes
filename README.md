@@ -1,17 +1,17 @@
 # Nosso Cantinho
 
-## Versão 4.11 — Alertas do meu amor
-[Baixar APK 4.11](https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.11.apk). Instale por cima, sem desinstalar; também há atualização pelo app.
+## Versão 4.12 — conversa sem interrupções
+[Baixar APK 4.12](https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.12.apk). Instale por cima, sem desinstalar; também há atualização pelo app.
 
-Em Ajustes > Sons de mensagens e ligações, ative Alertas do meu amor. Cada pessoa autoriza no próprio celular o acesso ao Não perturbe do Android. O modo é opcional e vem desativado. Ao retornar da autorização, as categorias de mensagens, carinhos e convites podem usar exceção ao Não perturbe quando as regras do Android permitirem. A tela mostra autorização pendente, notificações bloqueadas e quantas categorias têm exceção ativa, com atalhos para conferência por categoria. Desativar retorna os próximos alertas às categorias normais.
+Com a conversa aberta em primeiro plano e a tela desbloqueada, mensagens, fotos e carinhos novos são salvos e recebidos normalmente, sem publicar notificação, som ou vibração de notificação. Abrir a conversa remove seus avisos antigos. Em outras abas, fora do app e com tela bloqueada, mensagens voltam a gerar os alertas configurados. A decisão ocorre na thread de interface junto ao ciclo das telas; uma fila de alerta verifica a tela atual antes de publicar. Convites e chamadas usam caminho separado e continuam tocando conforme permissões e configurações. Sem alterações nos sons/canais escolhidos ou modos de volume/DND.
 
-Não modifica volume, modo silencioso, política ou estado global de Não perturbe. Não aumenta volume zerado e não impede controle do usuário. Silencioso, regras restritas, bloqueio de notificações/canais e configurações do Android podem impedir som. Sem garantia de alarme ou emergência. A prévia de som respeita os modos atuais e não testa bypass de DND. Conexão e GPS continuam com avisos silenciosos. Configurações anteriores das categorias normais são mantidas; quando já existem, suas preferências de som, importância e vibração são usadas na criação inicial das categorias prioritárias. Preferências alteradas pelo usuário no Android continuam sob controle do sistema.
+Mantém Alertas do meu amor da 4.11: opção local em Ajustes > Sons de mensagens e ligações, inicialmente desligada. Cada pessoa autoriza acesso ao Não perturbe no próprio Android. Exceção por categoria quando o sistema permitir; não altera volume, silencioso ou DND global. Volume zerado, silencioso, regras restritas e canais bloqueados podem impedir som. A prévia não testa bypass. Conexão e GPS seguem com aviso silencioso.
 
-Mantém GPS em segundo plano da 4.10: opt-in por aparelho, aviso permanente com Desativar e retomada após reiniciar quando houver autorização e o Android permitir. Trocar o código revoga compartilhamento. Envio cifrado a cada30s com recuo após falha; posição expira em90s. Internet, bateria, GPS e limites do serviço podem interromper a entrega. Localização não vai para chat, trajetos ou backup. Quem tem o código pode receber eventos.
+Mantém GPS em segundo plano da 4.10: opt-in por aparelho, aviso permanente com Desativar, retomada após reiniciar quando autorizada e permitida pelo Android. Trocar código revoga o compartilhamento. Envio cifrado a cada30s com recuo após falha e expiração da posição em90s. Internet, bateria, GPS e limites do serviço podem interromper entrega. Sem trajetos no chat/backup. Quem tem o código pode receber eventos.
 
-Mapa OpenStreetMap com atribuição e cache HTTP; sem bulk/offline ou navegação Google Maps. Provedor recebe IP e região exibida. Política https://operations.osmfoundation.org/policies/tiles/ . Chamadas permanecem experimentais sem TURN.
+Mapa OpenStreetMap com atribuição e cache HTTP, sem bulk/offline ou navegação Google Maps. Provedor recebe IP e região exibida. Política https://operations.osmfoundation.org/policies/tiles/ . Chamadas experimentais sem TURN.
 
-Compilação, assinatura original, versão/permissão e ausência de mudanças de volume/DND global conferidas. Não testado fisicamente nos A05/A16: autorização, bypass de DND, GPS e interface precisam de teste nos aparelhos.
+Compilação, assinatura original, versão do pacote e integridade do download conferidas. Comportamento real em primeiro/segundo plano, bloqueio de tela, GPS e DND ainda precisa de teste nos A05/A16; não há teste físico nesta publicação.
 
 ## Publicação
-APK e update.json juntos, com verificação pública de bytes/SHA-256. Instalação depende da confirmação Android. Nunca publicar chave privada, ZIP de projeto, código do casal, coordenadas reais, dados pessoais ou backups aqui.
+APK e update.json juntos, com verificação pública de bytes/SHA-256. Instalação depende do Android. Nunca publicar chave privada, ZIP de projeto, código do casal, coordenadas reais, dados pessoais ou backups aqui.

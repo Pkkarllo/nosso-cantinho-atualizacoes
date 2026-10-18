@@ -1,7 +1,7 @@
 {
-  "minVersionCode": 16,
-  "latestVersionCode": 16,
-  "versionName": "4.11-alertas-do-amor",
-  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.11.apk",
-  "sha256": "31af008af8bd19af7ecb3860c59d3ab953b306aebcd4afe8fcb38db2f735b78d"
+  "minVersionCode": 17,
+  "latestVersionCode": 17,
+  "versionName": "4.12-conversa-silenciosa",
+  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.12.apk",
+  "sha256": "bbf44080fb4d627f942d5baf4180305bbc9876dae149e36f40a2269afea28d14"
 }
