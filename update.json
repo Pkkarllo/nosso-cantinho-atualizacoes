@@ -1,7 +1,7 @@
 {
-  "minVersionCode": 20,
-  "latestVersionCode": 20,
-  "versionName": "4.15-audios-fotos-videos",
-  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.15.apk",
-  "sha256": "9fd7afd937f68e3bf607be314537682db3c80c3399e69b15ea82c95c8657ee03"
+  "minVersionCode": 21,
+  "latestVersionCode": 21,
+  "versionName": "4.16-audio-por-gestos",
+  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.16.apk",
+  "sha256": "73c19b46f5c061ee3006c6f58fde8b9ad8a46e2987a3c2322df0ea2e6e07d546"
 }
