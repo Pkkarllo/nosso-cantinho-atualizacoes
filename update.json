@@ -1,7 +1,7 @@
 {
-  "minVersionCode": 25,
-  "latestVersionCode": 25,
-  "versionName": "4.20-envio-claro",
-  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.20.apk",
-  "sha256": "f46afa827c6557a0df5815e1d0a5be0439cd5186d0144295d87c9e739f87386e"
+  "minVersionCode": 26,
+  "latestVersionCode": 26,
+  "versionName": "4.21-backup-manual",
+  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.21.apk",
+  "sha256": "38f55a64cdcc09f4d495499f20bfe8568d45b5d67d4c423608eeceae921aadd5"
 }
