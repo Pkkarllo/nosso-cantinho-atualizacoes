@@ -1,7 +1,7 @@
 {
   "minVersionCode": 23,
-  "latestVersionCode": 24,
-  "versionName": "4.19-visualizacao",
-  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.19.apk",
-  "sha256": "2fb3b71bde48570548107201a5faf538ccb4e6ca489c0547c800713b3500a575"
+  "latestVersionCode": 23,
+  "versionName": "4.18-correcao-atualizador",
+  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.18.apk",
+  "sha256": "2e38f6d626025cf7aa45fa3515e249e09f9eeab61180b4a4501916d10d54813c"
 }
