@@ -1,7 +1,7 @@
 {
-  "minVersionCode": 22,
-  "latestVersionCode": 22,
-  "versionName": "4.17-aviso-de-cotas",
-  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.17.apk",
-  "sha256": "1ee7a14bfb1a161a7d7d33c760721de65972251bc2c28913ba966b1e3cc10225"
+  "minVersionCode": 23,
+  "latestVersionCode": 23,
+  "versionName": "4.18-correcao-atualizador",
+  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.18.apk",
+  "sha256": "2e38f6d626025cf7aa45fa3515e249e09f9eeab61180b4a4501916d10d54813c"
 }
