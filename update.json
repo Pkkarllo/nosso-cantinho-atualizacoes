@@ -1,7 +1,7 @@
 {
-  "minVersionCode": 17,
-  "latestVersionCode": 17,
-  "versionName": "4.12-conversa-silenciosa",
-  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.12.apk",
-  "sha256": "bbf44080fb4d627f942d5baf4180305bbc9876dae149e36f40a2269afea28d14"
+  "minVersionCode": 18,
+  "latestVersionCode": 18,
+  "versionName": "4.13-conversa-fofa",
+  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.13.apk",
+  "sha256": "b4a09d2f617f315fcfad0d3a3f2952efe5e69f31dea70594007ac7c6234df4d1"
 }
