@@ -1,7 +1,7 @@
 {
-  "minVersionCode": 15,
-  "latestVersionCode": 15,
-  "versionName": "4.10-gps-continuo",
-  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.10.apk",
-  "sha256": "fb6d92a2afcee195fb969010b673544ebaa068a37a1fe0aeab3afc5ba4f0f04a"
+  "minVersionCode": 16,
+  "latestVersionCode": 16,
+  "versionName": "4.11-alertas-do-amor",
+  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.11.apk",
+  "sha256": "31af008af8bd19af7ecb3860c59d3ab953b306aebcd4afe8fcb38db2f735b78d"
 }

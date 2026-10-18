@@ -1,17 +1,17 @@
 # Nosso Cantinho
 
-## Versão 4.10 — GPS contínuo
-[Baixar APK 4.10](https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.10.apk). Instale por cima sem desinstalar; atualização também pelo app.
+## Versão 4.11 — Alertas do meu amor
+[Baixar APK 4.11](https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.11.apk). Instale por cima, sem desinstalar; também há atualização pelo app.
 
-O GPS deixa de parar ao sair do mapa. Compartilhamento é opt-in em cada aparelho, com serviço de localização em primeiro plano, aviso permanente e ação Desativar. A escolha fica salva e vinculada ao código atual do casal; trocar o código revoga o compartilhamento.
+Em Ajustes > Sons de mensagens e ligações, ative Alertas do meu amor. Cada pessoa autoriza no próprio celular o acesso ao Não perturbe do Android. O modo é opcional e vem desativado. Ao retornar da autorização, as categorias de mensagens, carinhos e convites podem usar exceção ao Não perturbe quando as regras do Android permitirem. A tela mostra autorização pendente, notificações bloqueadas e quantas categorias têm exceção ativa, com atalhos para conferência por categoria. Desativar retorna os próximos alertas às categorias normais.
 
-Na aba Mapa, ative Compartilhar meu GPS e autorize a localização. Para tentar retomar após reiniciar ou atualizar o aplicativo, use Retomada após reiniciar e selecione Permitir o tempo todo nas permissões do Android. Não solicitamos novamente a cada entrada. Android pode exigir etapas separadas, revogar permissões, encerrar o processo ou impedir retomada. Não funciona com o aparelho desligado; não é garantia de rastreamento 24h.
+Não modifica volume, modo silencioso, política ou estado global de Não perturbe. Não aumenta volume zerado e não impede controle do usuário. Silencioso, regras restritas, bloqueio de notificações/canais e configurações do Android podem impedir som. Sem garantia de alarme ou emergência. A prévia de som respeita os modos atuais e não testa bypass de DND. Conexão e GPS continuam com avisos silenciosos. Configurações anteriores das categorias normais são mantidas; quando já existem, suas preferências de som, importância e vibração são usadas na criação inicial das categorias prioritárias. Preferências alteradas pelo usuário no Android continuam sob controle do sistema.
 
-Envio cifrado pelo transporte existente a cada 30s com recuo após falha. Posição recebida expira em 90s. Internet, bateria, GPS e limites do serviço podem interromper a entrega. Sem trilha de trajetos no chat ou backup. Quem tem o código do casal pode receber os eventos. Desativar não remove cópias anteriores/cache do transporte.
+Mantém GPS em segundo plano da 4.10: opt-in por aparelho, aviso permanente com Desativar e retomada após reiniciar quando houver autorização e o Android permitir. Trocar o código revoga compartilhamento. Envio cifrado a cada30s com recuo após falha; posição expira em90s. Internet, bateria, GPS e limites do serviço podem interromper a entrega. Localização não vai para chat, trajetos ou backup. Quem tem o código pode receber eventos.
 
-Mapa OpenStreetMap com marcadores azul/vermelho, zoom e distância em linha reta; sem navegação Google Maps. Tiles com atribuição e cache HTTP, sem bulk ou offline. Provedor recebe IP e região visualizada. Política: https://operations.osmfoundation.org/policies/tiles/ .
+Mapa OpenStreetMap com atribuição e cache HTTP; sem bulk/offline ou navegação Google Maps. Provedor recebe IP e região exibida. Política https://operations.osmfoundation.org/policies/tiles/ . Chamadas permanecem experimentais sem TURN.
 
-Compilação, assinatura original e integridade do pacote verificadas. GPS em segundo plano, retomada após reiniciar e experiência nos A05/A16 ainda precisam de teste físico. Chamadas permanecem experimentais sem TURN.
+Compilação, assinatura original, versão/permissão e ausência de mudanças de volume/DND global conferidas. Não testado fisicamente nos A05/A16: autorização, bypass de DND, GPS e interface precisam de teste nos aparelhos.
 
 ## Publicação
-APK e update.json publicados juntos. Instalação continua dependendo do Android. Nunca publicar chave privada, ZIP de projeto, coordenadas reais, código do casal, dados pessoais ou backups neste repositório.
+APK e update.json juntos, com verificação pública de bytes/SHA-256. Instalação depende da confirmação Android. Nunca publicar chave privada, ZIP de projeto, código do casal, coordenadas reais, dados pessoais ou backups aqui.
