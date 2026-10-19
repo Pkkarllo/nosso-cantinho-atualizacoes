@@ -1,7 +1,7 @@
 {
-  "minVersionCode": 27,
-  "latestVersionCode": 27,
-  "versionName": "4.22-correcao-atualizacao",
-  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.22.apk",
-  "sha256": "0166c5cd020c49e2e7778683d31c19fbe685d8b2c0de38a4a632bf8c02e29e67"
+  "minVersionCode": 28,
+  "latestVersionCode": 28,
+  "versionName": "4.20-retorno",
+  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.20-retorno.apk",
+  "sha256": "81470909b96d2270dd7bba2c14354ccfa63bb1b5750f2367bc739489f67dc166"
 }
