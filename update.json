@@ -1,7 +1,7 @@
 {
-  "minVersionCode": 26,
-  "latestVersionCode": 26,
-  "versionName": "4.21-backup-manual",
-  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.21.apk",
-  "sha256": "38f55a64cdcc09f4d495499f20bfe8568d45b5d67d4c423608eeceae921aadd5"
+  "minVersionCode": 27,
+  "latestVersionCode": 27,
+  "versionName": "4.22-correcao-atualizacao",
+  "apkUrl": "https://raw.githubusercontent.com/Pkkarllo/nosso-cantinho-atualizacoes/main/apk/Nosso-Cantinho-4.22.apk",
+  "sha256": "1fd6199e419f4fc8f66e4c80ee9141cd7294ac386fff79771a6eb8aa1f172121"
 }
